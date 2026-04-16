@@ -1,0 +1,6 @@
+__pycache__/
+*.npy
+*.pkl
+*.h5
+emotion/
+*.csv

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "emotion-detection"
+version = "0.1.0"
+description = "Streamlit app for emotion detection"
+authors = ["soumi-mishra"]
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+streamlit = "^1.56.0"
+tensorflow = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+opencv-python-headless = "*"
+pillow = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

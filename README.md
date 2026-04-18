@@ -7,7 +7,7 @@ This project is an end-to-end Emotion Detection Pipeline that integrates both fa
 # Emotion Detection Project
 [![Deploy on Render](https://img.shields.io/badge/Live%20App-Emotion%20Detection-blue?style=for-the-badge&logo=render)](https://emotion-detection-3-fxrp.onrender.com)
 
-Features
+##Features
 
 Face Emotion Detection: Uses CNN models to classify emotions from facial images.
 
@@ -19,7 +19,7 @@ Deployment Ready: Configured for deployment on Render with reproducible workflow
 
 Reproducible Environment: Python version pinned via pyproject.toml to ensure TensorFlow compatibility.
 
-Tech Stack
+##Tech Stack
 
 Frontend: Streamlit
 
@@ -31,28 +31,27 @@ Visualization: Matplotlib, Seaborn
 
 Image Processing: OpenCV (headless)
 
-Installation
+##Installation
 
-Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/soumi-mishra/Emotion-detection-
+   cd Emotion-detection-
+2. Install dependencies:
+   ```bash
+   pip install -r req.txt
 
-git clone https://github.com/soumi-mishra/Emotion-detection-
-cd Emotion-detection-
+3. Run the application locally:
+    ```bash
+    streamlit run integration_app.py
 
-Install dependencies:
+4. Deployment
 
-pip install -r req.txt
-
-Run the application locally:
-
-streamlit run integration_app.py
-
-Deployment
-
-This project is deployed on Render. You can access the live application using the button below:
-
+    This project is deployed on Render. You can access the live application using the button below:
 
 
-Project Goals
+
+##Project Goals
 
 Provide a seamless interface for emotion detection from both text and facial inputs.
 

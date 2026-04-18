@@ -1,38 +1,25 @@
-Emotion Detection Project
-
-Overview
-
-This project is an end-to-end Emotion Detection Pipeline that integrates both facial and textual emotion recognition models into a single interactive Streamlit application. It leverages Convolutional Neural Networks (CNNs) for face emotion detection and LSTM-based models for text emotion detection, providing a unified interface for analyzing emotions from multiple modalities.
-
 # Emotion Detection Project
+
 [![Deploy on Render](https://img.shields.io/badge/Live%20App-Emotion%20Detection-blue?style=for-the-badge&logo=render)](https://emotion-detection-3-fxrp.onrender.com)
 
-##Features
+## Overview
+This project is an end-to-end **Emotion Detection Pipeline** that integrates both facial and textual emotion recognition models into a single interactive Streamlit application. It leverages **Convolutional Neural Networks (CNNs)** for face emotion detection and **LSTM-based models** for text emotion detection, providing a unified interface for analyzing emotions from multiple modalities.
 
-Face Emotion Detection: Uses CNN models to classify emotions from facial images.
+## Features
+- **Face Emotion Detection**: Uses CNN models to classify emotions from facial images.
+- **Text Emotion Detection**: Employs LSTM models to analyze emotions from textual input.
+- **Interactive Dashboard**: Built with Streamlit, offering a clean and user-friendly interface.
+- **Deployment Ready**: Configured for deployment on Render with reproducible workflows.
+- **Reproducible Environment**: Python version pinned via `pyproject.toml` to ensure TensorFlow compatibility.
 
-Text Emotion Detection: Employs LSTM models to analyze emotions from textual input.
+## Tech Stack
+- **Frontend**: Streamlit  
+- **Backend Models**: TensorFlow, Keras  
+- **Data Handling**: Pandas, NumPy  
+- **Visualization**: Matplotlib, Seaborn  
+- **Image Processing**: OpenCV (headless)  
 
-Interactive Dashboard: Built with Streamlit, offering a clean and user-friendly interface.
-
-Deployment Ready: Configured for deployment on Render with reproducible workflows.
-
-Reproducible Environment: Python version pinned via pyproject.toml to ensure TensorFlow compatibility.
-
-##Tech Stack
-
-Frontend: Streamlit
-
-Backend Models: TensorFlow, Keras
-
-Data Handling: Pandas, NumPy
-
-Visualization: Matplotlib, Seaborn
-
-Image Processing: OpenCV (headless)
-
-##Installation
-
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/soumi-mishra/Emotion-detection-

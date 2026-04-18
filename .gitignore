@@ -1,6 +1,7 @@
 __pycache__/
 *.npy
 *.pkl
-*.h5
 emotion/
 *.csv
+best_face_emotion_model.h5
+best_text_emotion_model.h5

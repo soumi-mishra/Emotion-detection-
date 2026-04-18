@@ -38,7 +38,7 @@ This project is an end-to-end **Emotion Detection Pipeline** that integrates bot
 
 
 
-##Project Goals
+## Project Goals
 
 Provide a seamless interface for emotion detection from both text and facial inputs.
 
